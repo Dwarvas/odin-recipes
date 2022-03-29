@@ -1,0 +1,79 @@
+
+@font-face {
+    font-family: dynalight-reg;
+    src: url(fonts/Dynalight-Regular.otf);
+    
+}
+@font-face
+{
+    font-family: great-vibes;
+    src: url(fonts/GreatVibes-Regular.otf);
+}
+
+* 
+{
+ border-bottom: solid red;
+}
+
+body 
+{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Fleur_de_lys_%C3%A9panouie.svg/800px-Fleur_de_lys_%C3%A9panouie.svg.png);
+    background-size: 50px;
+    background-repeat:space;
+    background-color: brown;
+    background
+}
+
+.center
+{
+    text-align: center;
+}
+
+img
+{
+  width: 500px;
+  height: auto;
+  transform: translateX(80%);
+  border: 3mm ridge rgb(230, 181, 46);
+}
+
+.header 
+{
+ background-color: rgba(204, 184, 7, 0.87);
+font-family: "great-vibes";
+}
+
+a {
+    font-size: larger;
+    font-family: "dynalight-reg";
+    color: rgb(247, 155, 17);
+}
+
+.ul-list , #lamb
+{
+    color: blue;
+    background-color: blue;
+}
+
+.ul-list , #beef 
+{
+    color: white;
+background-color: rgb(247, 255, 173);
+}
+
+.ul-list , #tartiflette 
+{
+  color: red;  
+background-color: red;
+}
+
+ li
+{
+    
+    padding: 100px 100px 100px 100px;
+}
+
+ul li {
+    background-color: white;
+    margin: 20px;
+}
